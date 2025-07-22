@@ -1,0 +1,56 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to left,black,blue,black);
+}
+header{
+    background-color: rgb(187, 218, 194);
+    color: rgb(13, 130, 232);
+    display:flex
+}
+h1{
+    text-align: center;
+    color: rgb(236, 187, 29);
+}
+#home{
+    color:rgb(236, 187, 29) ;
+   
+}
+nav :hover{
+    display:flex;
+    color: rgb(255, 138, 127);
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+.details{
+    text-align: center;
+   margin-top: 40px;
+}
+img {
+    height: 250px;
+    width: 250px;
+}
+.pho {
+    padding-left: 20px;
+    margin-top: 60px;
+    
+}
+.about{
+    color:rgb(236, 187, 29) ;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.m{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
